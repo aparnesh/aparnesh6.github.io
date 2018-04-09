@@ -1,0 +1,197 @@
+.fb-profile-block {
+  margin: auto;
+  position: relative;
+
+  display:flex;
+  justify-content: center;
+
+}
+img:not(.navbar-brand ){
+    width: 100%; 
+    height: auto;
+}
+.fb-profile-block-thumb{
+  display: flex;
+  height: 315px;
+ width: 900px;
+
+  position: absolute;
+  text-decoration: none;
+
+}
+.fb-profile-block-menu {
+  border: 1px solid #d3d6db;
+  border-radius: 0 0 3px 3px;
+}
+.profile-img a{
+ position: relative;
+
+ top:120%;
+ right: 150%;
+ 
+ margin-left: auto;
+ margin-right: auto;
+
+  box-shadow: none;
+  display: flex;
+  
+  
+  
+  
+  padding:0px;
+
+  height: 160px;
+  width: 160px;
+  background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+  z-index:5;
+  border :solid 2px white;
+  box-shadow: 0 1px 1px;
+
+  
+
+}
+.profile-name {
+  top: 280px;
+  right: 200px;
+
+  position: relative;
+}
+.profile-name h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  max-width: 275px;
+ 
+
+}
+.rowStyle {
+    border-bottom: 1px solid #ddd;
+    margin-top: 1em !important;
+}
+
+.rowStyle div {
+    padding: 1em;
+}
+#randomrow
+{
+  margin-top: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+@media screen and (max-width: 824px)
+{
+.profile-name {
+  top: 350px;
+  right: 90px;
+
+  position: relative;
+}
+.profile-img a
+{
+  top:120%;
+ right: -40%;
+
+}
+.profile-name h2 {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  max-width: 275px;
+ 
+
+}
+#randomrow
+{
+  margin-top: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+}
+.shift
+{
+  margin-left: 35vw;
+}
+.propic
+{
+  margin-left: 4vw;
+  height: auto;
+}
+.active
+{
+  color: white !important;
+  font-weight: bolder;
+  
+}
+
+@media screen and (max-width: 992px)
+{
+  .propic
+{
+  margin-left: 0vw;
+}
+}
+
+
+
+@media screen and (max-width: 900px)
+{
+ .fb-profile-block-thumb
+ {
+  width: 850px
+ }
+ 
+
+}
+@media screen and (max-width: 850px)
+{
+ .fb-profile-block-thumb
+ {
+  width: 800px
+ }
+ 
+
+}
+@media screen and (max-width: 800px)
+{
+ .fb-profile-block-thumb
+ {
+  width: 750px
+ }
+  .profile-img a
+{
+ margin-left: 3vw;
+
+}
+
+}
+@media screen and (max-width: 750px)
+{
+ .fb-profile-block-thumb
+ {
+  width: 700px
+ }
+ .profile-img a
+{
+ margin-left: 3vw;
+
+}
+
+}
+@media screen and (max-width: 700px)
+{
+ .fb-profile-block-thumb
+ {
+  width: 100%;
+ }
+
+}
+@media screen and (max-width: 350px)
+{
+.emails{
+ font-size: 12px;
+}
+}
